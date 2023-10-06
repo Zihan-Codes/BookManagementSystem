@@ -1,0 +1,55 @@
+table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+td {
+    border-top: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+    
+}
+td:not(:last-child) {
+    border-right: 2px solid black;
+}
+
+
+th {
+    padding: 8px 12px;
+    text-align: center;
+}
+th:not(:last-child) {
+    border-right: 2px solid black;
+}
+
+
+td.delete-btn button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+td.delete-btn {
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+}
+
+thead {
+    background-color: #1450A3;
+}
+
+thead th {
+    color: white;
+}
+
+tbody tr {
+    background-color: whitesmoke;
+}
